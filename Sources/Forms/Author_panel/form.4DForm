@@ -1,0 +1,124 @@
+﻿{
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 16,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Prénom"
+				},
+				"_input_firstName": {
+					"type": "input",
+					"top": 16,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.firstName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 41,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Nom"
+				},
+				"_input_lastName": {
+					"type": "input",
+					"top": 41,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.lastName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 69,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Livres"
+				},
+				"lb_books": {
+					"type": "listbox",
+					"top": 69,
+					"left": 150,
+					"width": 359,
+					"height": 171,
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "Form:C1466.entity.writers.book",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne1",
+							"dataSource": "This:C1470.title",
+							"width": 344,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Titre"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"bookFullText": {
+					"type": "write",
+					"top": 50,
+					"left": 15,
+					"width": 750,
+					"height": 497,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.bookFullText",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showHorizontalRuler": true,
+					"layoutMode": "page",
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"vNbCol": {
+					"type": "tab",
+					"top": 11,
+					"left": 15,
+					"width": 114,
+					"height": 26,
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"1",
+						"2",
+						"3"
+					],
+					"action": "GotoPage",
+					"method": "ObjectMethods/vNbCol.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 14,
+					"left": 123,
+					"width": 82,
+					"height": 21,
+					"text": "Save",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 10,
+					"left": 221,
+					"width": 85,
+					"height": 33,
+					"text": "Button",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

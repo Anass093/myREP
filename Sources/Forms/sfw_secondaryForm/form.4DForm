@@ -1,0 +1,90 @@
+﻿{
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 45,
+					"left": 1,
+					"width": 601,
+					"height": 505,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#EFF0EB",
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 546,
+					"left": 0,
+					"width": 601,
+					"height": 44,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"fill": "#75BFC8",
+					"stroke": "transparent"
+				},
+				"sf_panel": {
+					"type": "subform",
+					"top": 50,
+					"left": 4,
+					"width": 592,
+					"height": 493,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/sf_panel.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onUnload"
+					]
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 601,
+					"height": 45,
+					"sizingX": "grow",
+					"fill": "#89D9CF",
+					"stroke": "transparent"
+				}
+			}
+		}
+	]
+}

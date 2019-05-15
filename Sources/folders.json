@@ -1,0 +1,30 @@
+﻿{
+	"Dossier par défaut": {
+		"groups": [
+			"Tables par défaut",
+			"Formulaires par défaut",
+			"Méthodes projet par défaut"
+		]
+	},
+	"Tables par défaut": {},
+	"Formulaires par défaut": {},
+	"Méthodes projet par défaut": {},
+	"WebMethods": {
+		"methods": [
+			"swfw_login",
+			"swfw_logout",
+			"Book_web_display_items",
+			"Book_web_display_item",
+			"swfw_searchItem",
+			"Picture_web_display",
+			"Album_web_display_items",
+			"Album_web_display_item",
+			"Category_web_display_items",
+			"Category_web_display_AlbumBook",
+			"Cart_web_HandleCarts",
+			"Cart_web_deleteItem",
+			"Cart_web_isOK_To_AddItem"
+		]
+	},
+	"trash": {}
+}

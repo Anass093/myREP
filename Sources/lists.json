@@ -1,0 +1,89 @@
+﻿{
+	"formulaires": {
+		"lineHeight": 18,
+		"editable": true,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Album_panel",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Author_add",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Author_panel",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Book_panel",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Borrowing_cart_panel",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Citizen_panel",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "sfw_mainForm",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "sfw_secondaryForm",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "sfw_sf_empty",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Test_2entities",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "Test_Detail",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "writeProFullText",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "zzzTest_DoublonEntity",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "zzzTest_DoublonForm",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "zzzTest_DoublonVar",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "zzzTest_Entity",
+				"ref": 16,
+				"editable": true
+			}
+		]
+	}
+}

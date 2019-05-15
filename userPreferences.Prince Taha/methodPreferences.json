@@ -1,0 +1,1058 @@
+﻿{
+	"Sources/Methods/Méthode 1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-04T14:54:50.022Z"
+	},
+	"Sources/Methods/mtl_table_definition.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-05T09:07:14.595Z"
+	},
+	"Sources/Methods/sfw_launch_mainForm.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T09:59:57.814Z"
+	},
+	"Sources/Methods/sfw_init_mainForm.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T15:20:09.056Z"
+	},
+	"Sources/Methods/sfw_filter_table_by_perspective.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-12T16:01:38.956Z"
+	},
+	"Sources/Methods/sfw_fill_lb_tables.4dm": {
+		"startSelection": 0,
+		"endSelection": 22,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T15:46:56.447Z"
+	},
+	"Sources/Methods/sfw_select_first_table.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-13T16:18:24.679Z"
+	},
+	"Sources/Methods/sfw_fill_lb_items.4dm": {
+		"startSelection": 65,
+		"endSelection": 65,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:40:18.359Z"
+	},
+	"Sources/Methods/zzzzzMAJ_Donnees_Author.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-13T09:11:21.342Z"
+	},
+	"Sources/Methods/sfw_display_item.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-25T06:34:24.895Z"
+	},
+	"Sources/Methods/Author_add.4dm": {
+		"startSelection": 4,
+		"endSelection": 14,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-15T10:46:51.453Z"
+	},
+	"Sources/Methods/sfw_sort_lb_items.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-15T14:57:12.471Z"
+	},
+	"Sources/Methods/sfw_compute_perspective_pup.4dm": {
+		"startSelection": 82,
+		"endSelection": 82,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 31,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-21T14:33:46.650Z"
+	},
+	"Sources/Methods/sfw_search_lb_items.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:40:36.413Z"
+	},
+	"Sources/Methods/Author_del.4dm": {
+		"startSelection": 0,
+		"endSelection": 10,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T19:59:14.024Z"
+	},
+	"Sources/Methods/swfw_load_router.4dm": {
+		"startSelection": 40,
+		"endSelection": 40,
+		"firstSelectedLine": 81,
+		"lastSelectedLine": 81,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T08:44:27.465Z"
+	},
+	"Sources/Methods/swfw_load_section.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:35:52.085Z"
+	},
+	"Sources/Methods/swfw_init_session.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:37:05.100Z"
+	},
+	"Sources/Methods/swfw_init_request.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 94,
+		"lastSelectedLine": 94,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:38:02.135Z"
+	},
+	"Sources/Methods/swfw_findHandlerRequest.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 37,
+		"lastSelectedLine": 37,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:45:02.542Z"
+	},
+	"Sources/Methods/swfw_filterRequestNotAuth.4dm": {
+		"startSelection": 64,
+		"endSelection": 64,
+		"firstSelectedLine": 40,
+		"lastSelectedLine": 40,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:46:44.823Z"
+	},
+	"Sources/Methods/swfw_dispatcher.4dm": {
+		"startSelection": 64,
+		"endSelection": 64,
+		"firstSelectedLine": 45,
+		"lastSelectedLine": 45,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:46:39.777Z"
+	},
+	"Sources/Methods/COMPILER_WEB.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:47:23.678Z"
+	},
+	"Sources/Methods/swfw_login.4dm": {
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:32:14.514Z"
+	},
+	"Sources/Methods/swfw_logout.4dm": {
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:49:47.822Z"
+	},
+	"Sources/Methods/Book_web_display_items.4dm": {
+		"startSelection": 78,
+		"endSelection": 78,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T09:04:40.030Z"
+	},
+	"Sources/Methods/Book_web_display_item.4dm": {
+		"startSelection": 53,
+		"endSelection": 53,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-17T13:54:09.388Z"
+	},
+	"Sources/Methods/Picture_web_display.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:01:53.311Z"
+	},
+	"Sources/Methods/swfw_pagination_build.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 84,
+		"lastSelectedLine": 84,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:48:01.883Z"
+	},
+	"Sources/Methods/Cart_web_build_currentCart.4dm": {
+		"startSelection": 31,
+		"endSelection": 36,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:48:01.880Z"
+	},
+	"Sources/Methods/Cart_web_display_currendCart.4dm": {
+		"startSelection": 14,
+		"endSelection": 40,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:31:49.400Z"
+	},
+	"Sources/Methods/Cart_web_drawPict_ProgressCarts.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T19:53:47.720Z"
+	},
+	"Sources/Methods/Cart_web_drawSVGPict.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:43:31.027Z"
+	},
+	"Sources/Methods/Category_web_build_items.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:45:49.182Z"
+	},
+	"Sources/Methods/Category_web_init_items.4dm": {
+		"startSelection": 52,
+		"endSelection": 53,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T16:55:46.720Z"
+	},
+	"Sources/Methods/Category_web_filter_items.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T12:52:23.488Z"
+	},
+	"Sources/Methods/Album_web_display_items.4dm": {
+		"startSelection": 138,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-17T16:12:38.498Z"
+	},
+	"Sources/Methods/Album_web_display_item.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-17T15:38:56.293Z"
+	},
+	"Sources/Methods/Category_web_display_items.4dm": {
+		"startSelection": 62,
+		"endSelection": 62,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T15:31:20.321Z"
+	},
+	"Sources/Methods/Category_web_display_AlbumBook.4dm": {
+		"startSelection": 40,
+		"endSelection": 40,
+		"firstSelectedLine": 93,
+		"lastSelectedLine": 93,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T09:20:29.464Z"
+	},
+	"Sources/Methods/Cart_web_HandleCarts.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [
+			15,
+			52
+		],
+		"bookmarks": [],
+		"stamp": "2019-02-16T21:34:23.180Z"
+	},
+	"Sources/Methods/Cart_web_display_validatedCarts.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T22:09:06.583Z"
+	},
+	"Sources/Methods/Cart_web_deleteItem.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T16:32:21.371Z"
+	},
+	"Sources/Methods/Cart_web_isOK_To_AddItem.4dm": {
+		"startSelection": 183,
+		"endSelection": 183,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T17:32:20.883Z"
+	},
+	"Sources/Methods/__4D_test.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T07:55:15.829Z"
+	},
+	"Sources/Methods/Cart_web_filter_empty_obj.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T17:31:47.766Z"
+	},
+	"Sources/Methods/__import_books_from_folder.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 154,
+		"lastSelectedLine": 154,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T20:12:17.529Z"
+	},
+	"Sources/Methods/__import_albums_from_folder.4dm": {
+		"startSelection": 40,
+		"endSelection": 40,
+		"firstSelectedLine": 113,
+		"lastSelectedLine": 113,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T21:15:12.621Z"
+	},
+	"Sources/Methods/_errCall.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-24T10:32:03.101Z"
+	},
+	"Sources/Methods/Category_web_get_itemByUUID.4dm": {
+		"startSelection": 41,
+		"endSelection": 41,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T21:31:52.777Z"
+	},
+	"Sources/Methods/Cart_web_get_status_label.4dm": {
+		"startSelection": 55,
+		"endSelection": 55,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T22:08:51.944Z"
+	},
+	"Sources/Methods/sfw_update_inside_panel.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:13:02.484Z"
+	},
+	"Sources/Methods/sfw_formMethod_panel.4dm": {
+		"startSelection": 0,
+		"endSelection": 23,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-20T06:23:41.399Z"
+	},
+	"Sources/Methods/sfw_displayBtn_modifyItem.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-20T13:18:08.130Z"
+	},
+	"Sources/Methods/sfw_get_meta_info_lb_items.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-21T15:47:51.995Z"
+	},
+	"Sources/Methods/Author_metainfo.4dm": {
+		"startSelection": 0,
+		"endSelection": 73,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-20T10:57:54.493Z"
+	},
+	"Sources/Methods/sfw_resize_panels.4dm": {
+		"startSelection": 12,
+		"endSelection": 27,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T08:57:06.838Z"
+	},
+	"Sources/Methods/Author_load.4dm": {
+		"startSelection": 0,
+		"endSelection": 55,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:13:11.258Z"
+	},
+	"Sources/Methods/Méthode 64.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T16:32:29.763Z"
+	},
+	"Sources/Methods/Citizen_load.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:41:23.727Z"
+	},
+	"Sources/Methods/swfw_init_webServer.4dm": {
+		"startSelection": 1,
+		"endSelection": 16,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T10:22:11.451Z"
+	},
+	"Sources/Methods/Méthode 67.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:44:45.281Z"
+	},
+	"Sources/Methods/zzzzCreateRandomCarts.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:41:50.674Z"
+	},
+	"Sources/Methods/Borrowing_cart_load.4dm": {
+		"startSelection": 42,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:42:33.279Z"
+	},
+	"Sources/Methods/Borrower_subset.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T10:00:57.528Z"
+	},
+	"Sources/Methods/Borrowing_cart_state.4dm": {
+		"startSelection": 5,
+		"endSelection": 19,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T10:22:37.218Z"
+	},
+	"Sources/Methods/Borrowing_cart_metainfo.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-28T14:59:28.999Z"
+	},
+	"Sources/Methods/Borrowing_cart_buildChrono.4dm": {
+		"startSelection": 55,
+		"endSelection": 55,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-28T15:19:30.261Z"
+	},
+	"Sources/Methods/Album_load.4dm": {
+		"startSelection": 39,
+		"endSelection": 39,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-01T14:48:17.185Z"
+	},
+	"Sources/Methods/_01srcctrl.4dm": {
+		"startSelection": 73,
+		"endSelection": 73,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-05-15T11:12:16.569Z"
+	},
+	"Sources/Methods/meth003.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-24T09:45:03.843Z"
+	},
+	"Sources/Methods/meth004.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-24T09:45:09.566Z"
+	},
+	"Sources/Methods/_02dynfrm.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-24T14:43:10.164Z"
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 0,
+		"endSelection": 19,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:01:35.602Z"
+	},
+	"Sources/DatabaseMethods/onServerStartup.4dm": {
+		"startSelection": 0,
+		"endSelection": 19,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:01:35.617Z"
+	},
+	"Sources/DatabaseMethods/onWebConnection.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-05T10:26:16.304Z"
+	},
+	"Sources/DatabaseMethods/onWebAuthentication.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-05T09:27:02.374Z"
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-01-30T13:37:12.901Z"
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-01-30T13:39:50.033Z"
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-01-30T13:46:55.251Z"
+	},
+	"Sources/Forms/Test_Detail/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-01-30T13:44:51.309Z"
+	},
+	"Sources/Forms/Test_Detail/ObjectMethods/Bouton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-01-30T13:52:41.154Z"
+	},
+	"Sources/Forms/Test_Detail/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-16T11:29:28.707Z"
+	},
+	"Sources/Forms/sfw_mainForm/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-22T09:31:52.779Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/lb_items.4dm": {
+		"startSelection": 0,
+		"endSelection": 16,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-13T16:18:30.275Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/sf_panel.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T18:05:48.051Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/pup_perspective.4dm": {
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T20:59:39.882Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/lb_tables.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-20T13:15:40.989Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/SearchPicker.4dm": {
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-15T14:48:41.619Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bAdd.4dm": {
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-21T15:00:08.917Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bDel.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-20T06:19:52.948Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bValidate.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-21T15:12:33.321Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bCancel.4dm": {
+		"startSelection": 35,
+		"endSelection": 41,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T20:56:07.854Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bLock.4dm": {
+		"startSelection": 53,
+		"endSelection": 53,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-19T20:55:36.029Z"
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bMode.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:14:43.449Z"
+	},
+	"Sources/Forms/zzzTest_Entity/method.4dm": {
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-17T21:48:02.850Z"
+	},
+	"Sources/Forms/zzzTest_DoublonEntity/method.4dm": {
+		"startSelection": 45,
+		"endSelection": 45,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-17T21:48:06.628Z"
+	},
+	"Sources/Forms/zzzTest_DoublonForm/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-13T13:26:44.698Z"
+	},
+	"Sources/Forms/Book_panel/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T14:39:01.955Z"
+	},
+	"Sources/Forms/Album_panel/method.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T14:39:13.787Z"
+	},
+	"Sources/Forms/Author_panel/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-18T14:38:56.991Z"
+	},
+	"Sources/Forms/sfw_secondaryForm/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-21T16:00:23.558Z"
+	},
+	"Sources/Forms/Citizen_panel/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T08:47:20.850Z"
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/_input_codepostal.4dm": {
+		"startSelection": 21,
+		"endSelection": 24,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-25T15:33:43.331Z"
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/_input_city.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T08:52:27.059Z"
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/bOtherCP.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T09:15:02.645Z"
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/List Box.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:43:59.007Z"
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/Bouton.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-27T16:35:25.387Z"
+	},
+	"Sources/Forms/Borrowing_cart_panel/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-26T15:03:56.540Z"
+	},
+	"Sources/Forms/Borrowing_cart_panel/ObjectMethods/bDisponible.4dm": {
+		"startSelection": 0,
+		"endSelection": 26,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-02-28T15:04:36.903Z"
+	},
+	"Sources/Forms/Borrowing_cart_panel/ObjectMethods/bRappel.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:43:59.004Z"
+	},
+	"Sources/Forms/writeProFullText/method.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-02T07:28:39.034Z"
+	},
+	"Sources/Forms/writeProFullText/ObjectMethods/vNbCol.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-04T14:43:54.905Z"
+	},
+	"Sources/Forms/_dynfrmWIZ/method.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-25T08:00:02.586Z"
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton.4dm": {
+		"startSelection": 49,
+		"endSelection": 49,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-25T09:01:11.352Z"
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 19,
+		"endSelection": 13,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-24T15:35:34.730Z"
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-03-25T09:16:32.240Z"
+	}
+}

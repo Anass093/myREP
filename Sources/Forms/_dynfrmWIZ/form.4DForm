@@ -1,0 +1,122 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": -1,
+					"left": -1,
+					"width": 1400,
+					"height": 686,
+					"fill": "#6495ED",
+					"stroke": "#0000CD"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Sousformulaire": {
+					"type": "subform",
+					"top": 43,
+					"left": 1,
+					"width": 654,
+					"height": 564,
+					"dataSourceTypeHint": "undefined",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 43,
+					"left": 680,
+					"width": 685,
+					"height": 577,
+					"dataSource": "vrn2",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ComboBox": {
+					"type": "combo",
+					"top": 627,
+					"left": 289,
+					"width": 222,
+					"height": 41,
+					"dataSource": "vComboBox",
+					"dataSourceTypeHint": "integer",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/formulaires"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 627,
+					"left": 531,
+					"width": 180,
+					"height": 41,
+					"text": "Charger",
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 627,
+					"left": 731,
+					"width": 209,
+					"height": 41,
+					"text": "en DYNAMIQUE",
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"top": 627,
+					"left": 954,
+					"width": 209,
+					"height": 41,
+					"text": "Appliquer",
+					"method": "ObjectMethods/Bouton2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 9,
+					"left": 539,
+					"width": 277,
+					"height": 30,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Formulaire Dynamique"
+				}
+			}
+		}
+	]
+}

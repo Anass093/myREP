@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<preferences stamp="7">
+	<com.4d>
+		<deployment>
+			<options generate_applications_for_read_only_deployment="true"/>
+		</deployment>
+		<web>
+			<standalone_server>
+				<configuration port_number="8080" publish_at_startup="true">
+					<hosts>
+						<host home_page="" id="0" name="default"/>
+					</hosts>
+				</configuration>
+				<options>
+					<web_processes preemptive="true"/>
+					<cache cache_max_size="524288"/>
+					<keep_alive requests_number="100"/>
+				</options>
+			</standalone_server>
+		</web>
+		<database>
+			<cache flush_buffer_delay="20s" size_maximum="4000" size_minimum="1000"/>
+		</database>
+	</com.4d>
+</preferences>

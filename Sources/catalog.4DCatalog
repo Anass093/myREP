@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="MyTownLibrary" uuid="34245898121346B5B4843ACD8C54D986" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Book" uuid="8B92B5509DA4434AB7E67906195763BB" id="1">
+		<field name="UUID" uuid="D3577F36C14B44E7800FB0F821980999" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="title" uuid="B37D5B6F167143BA861156A44CC1DB69" type="10" limiting_length="255" never_null="true" id="2">
+			<field_extra position="3"/>
+		</field>
+		<field name="subtitle" uuid="3F5AF2B518F44FC6869CE0CDF6EB5F8F" type="10" limiting_length="255" never_null="true" id="3">
+			<field_extra position="4"/>
+		</field>
+		<field name="UUID_Publisher" uuid="B40EBA9344C24CAAA856EE40118409C3" type="10" store_as_UUID="true" not_null="true" id="4">
+			<field_extra position="2"/>
+		</field>
+		<field name="description" uuid="C3447CB4B91A405F8031B4696196A0D4" type="10" never_null="true" id="5"/>
+		<field name="publishedDate" uuid="4673D9B6FF444417ABDEACACB292A583" type="8" never_null="true" id="6"/>
+		<field name="ISBN13" uuid="7AE5D800B61941F7914A3C957A0E3F5B" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="images" uuid="DE5024C729E044308D04CA9CC47DAED9" type="21" blob_switch_size="2147483647" never_null="true" id="8">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 .SFNSText;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs22 \cf2 \ulnone \{\
+     "smallThumbnail": \{"link":"http://books.google.com/books/content?id=z8QyUfV_pwoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api","record":"uuuuidddddd"\},\
+     "thumbnail": "http://books.google.com/books/content?id=z8QyUfV_pwoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"\
+    \}}]]>				</comment>
+				<comment format="text"><![CDATA[{     "smallThumbnail": {"link":"http://books.google.com/books/content?id=z8QyUfV_pwoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api","record":"uuuuidddddd"},     "thumbnail": "http://books.google.com/books/content?id=z8QyUfV_pwoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="language" uuid="12598FEABF0D4058B05B9941C6542506" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="pageCount" uuid="C39E2CD8FCC94AB383370E4A35A1EC60" type="3" never_null="true" id="10"/>
+		<field name="categories" uuid="A4F99DCA1E7C4E78ABC5BCCFB27B25F4" type="21" blob_switch_size="2147483647" never_null="true" id="11">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 .SFNSText;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs22 \cf2 \ulnone uuids:["uuid1","uuid2" ...]}]]>				</comment>
+				<comment format="text"><![CDATA[uuids:["uuid1","uuid2" ...]]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="more_info" uuid="B520F7AA71124088AF9B577D7AE216D5" type="21" blob_switch_size="2147483647" never_null="true" id="12"/>
+		<field name="cote" uuid="7782D4A907BB49FD81FB2009C9C8D6F1" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="permalink" uuid="DAAAF01EA6624B248D70A4B1FEC39E54" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="fulltext" uuid="83822D83DC6C4763911092832434A517" type="10" never_null="true" id="15"/>
+		<primary_key field_name="UUID" field_uuid="D3577F36C14B44E7800FB0F821980999"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="15">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="595.55078125" top="0" width="251.89453125" height="357.51171875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Author" uuid="0C55034FC3E040129AE45715174CDC20" id="2">
+		<field name="UUID" uuid="8EA3695F906B42F19D9BF2D7BA221330" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="civilty" uuid="9D2E3AD3BD0A4C7AA1AA2B0A1F7425AA" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="lastName" uuid="1091AEA6F6624015B6C20DBA7A3C65DB" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="firstName" uuid="37087665331D49FAA6102C61633D65DA" type="10" limiting_length="255" never_null="true" id="4"/>
+		<primary_key field_name="UUID" field_uuid="8EA3695F906B42F19D9BF2D7BA221330"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="8">
+				<color red="255" green="153" blue="63" alpha="255"/>
+				<coordinates left="1380.99609375" top="21.08203125" width="205.84375" height="215.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ID_to_UUID" uuid="095D68B6300D4878A86CBEFE5879846B" id="3">
+		<field name="UUID" uuid="B3CC911F2C20411FA40C2F2C27178F4D" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="ID" uuid="80B5396C69A5437FAD841FA2138FF1FC" type="4" never_null="true" id="2"/>
+		<field name="origine" uuid="C590E08A285949429DA6B33333C845C2" type="3" never_null="true" id="3"/>
+		<field name="IDA" uuid="12B89DC316F34BB2AF270748FC7FC331" type="10" limiting_length="255" never_null="true" id="4"/>
+		<primary_key field_name="UUID" field_uuid="B3CC911F2C20411FA40C2F2C27178F4D"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="102" blue="110" alpha="255"/>
+				<coordinates left="206.94921875" top="626.3984375" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Citizen" uuid="D6FE2FEDFEB545EA8BD6543291FD89E2" id="4">
+		<field name="UUID" uuid="F653D30A25F54576A49BE1F0C01253EA" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="civility" uuid="31F1CD10C35F4E1B927EB082AF98A7B1" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="lastName" uuid="78134D165AAE4C84B45AC8ED63232FD2" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="firstName" uuid="534E74ACDF954E57B206CB3F341B6439" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="email_login" uuid="46A0FAA84D5B416EA1C1CFC74FE4E8AA" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="password" uuid="4C82B8A04ECF4510BC340E956A2CC01B" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="address" uuid="3C356F67808948DCAC7155C87C8C0245" type="21" blob_switch_size="2147483647" never_null="true" id="7"/>
+		<primary_key field_name="UUID" field_uuid="F653D30A25F54576A49BE1F0C01253EA"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="11">
+				<color red="249" green="130" blue="127" alpha="255"/>
+				<coordinates left="1904.01171875" top="364.8984375" width="171.13671875" height="284.6171875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Borrowing_Item" uuid="F166B51CF31A41A2857737C155976262" id="5">
+		<field name="UUID" uuid="18970F5095C4481CB3757D8753706470" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="UUID_Citizen" uuid="652276385FC84E139F46C670ACB421E6" type="10" store_as_UUID="true" not_null="true" id="2">
+			<field_extra position="2"/>
+		</field>
+		<field name="UUID_Borrowing_cart" uuid="C74EA6ED2CC14FAFA826D2C8742ACB9B" type="10" store_as_UUID="true" not_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<field name="UUID_Book" uuid="EA546A59203644F5A47517D66E04A234" type="10" store_as_UUID="true" id="4">
+			<field_extra position="4"/>
+		</field>
+		<field name="UUID_Album" uuid="6A84677BA07A1244A2379C87E77F0C27" type="10" limiting_length="255" store_as_UUID="true" id="5"/>
+		<primary_key field_name="UUID" field_uuid="18970F5095C4481CB3757D8753706470"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="224" green="234" blue="104" alpha="255"/>
+				<coordinates left="1390.66796875" top="673.83203125" width="219.9609375" height="169.4765625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Borrowing_cart" uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" id="6">
+		<field name="UUID" uuid="1166594C79C045119B7129A416C7DE41" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="UUID_Citizen" uuid="EEA45689EC4F424986B94D8DD9C84CD5" type="10" store_as_UUID="true" not_null="true" id="2">
+			<field_extra position="2"/>
+		</field>
+		<field name="number" uuid="54CDFF13DBC947E8891C61B67022902B" type="4" never_null="true" id="3"/>
+		<field name="current_state" uuid="679899F44FF44CCF9650AEF496999B8B" type="3" never_null="true" id="4">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 .SFNSText;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs22 \cf2 \ulnone 0- \
+1- en creation\
+2 - valid\'e9\
+3 - en pr\'e9paration\
+4 - disponible\
+5 - retir\'e9\
+6 - rendu\
+7 - en retard\
+8 - }]]>				</comment>
+				<comment format="text">0- 1- en creation2 - validé3 - en préparation4 - disponible5 - retiré6 - rendu7 - en retard8 - 				</comment>
+			</field_extra>
+		</field>
+		<field name="state_history" uuid="070D47E761FA46B49B0F6E6B9CF38887" type="21" blob_switch_size="2147483647" never_null="true" id="5">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 .SFNSText;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs22 \cf2 \ulnone [\{"state";"stmp";"operator"\},...}]]>				</comment>
+				<comment format="text"><![CDATA[[{"state";"stmp";"operator"},...]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="box_number" uuid="A396A1E551484A9A8132BE4CF0941625" type="3" never_null="true" id="6"/>
+		<primary_key field_name="UUID" field_uuid="1166594C79C045119B7129A416C7DE41"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="9">
+				<color red="224" green="234" blue="104" alpha="255"/>
+				<coordinates left="676.38671875" top="603.359375" width="296.875" height="233.89453125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Album" uuid="5035179D5E154156A3926C2F8B1C6CFD" id="7">
+		<field name="UUID" uuid="ECF7C870C5CC490AA02A35A8493DE6DB" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="title" uuid="BD0DE073E6A842B48D45E4A47A791C37" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="label" uuid="A9A1B852B5C74F93A3406EDD3084D707" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="publishedDate" uuid="7938EE35CD1940838F4DBAAF4D63C8C4" type="8" never_null="true" id="4"/>
+		<field name="images" uuid="F658243207A8470CAE416831FB35993F" type="21" never_null="true" id="5"/>
+		<field name="categories" uuid="C5C4E6558F4648F4995F29FBFCAAA661" type="21" never_null="true" id="6"/>
+		<primary_key field_name="UUID" field_uuid="ECF7C870C5CC490AA02A35A8493DE6DB"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="7">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="711.58984375" top="397.49609375" width="170.734375" height="188.48046875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Owner" uuid="A22EDB135D7E413A810DA4471D196710" id="8">
+		<field name="UUID" uuid="1FF1AF5418B54E69A1465468EDF1143A" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="UUID_Author" uuid="15B28161750343ACA2B0730314E32EAD" type="10" store_as_UUID="true" not_null="true" id="2">
+			<field_extra position="2"/>
+		</field>
+		<field name="UUID_Book" uuid="C09213D300FF4E85AB9A780D93EFF228" type="10" store_as_UUID="true" not_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<field name="order" uuid="FBD49A3152AD40BAA06BB7DBA5DBB15D" type="3" never_null="true" id="4"/>
+		<primary_key field_name="UUID" field_uuid="1FF1AF5418B54E69A1465468EDF1143A"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="4">
+				<color red="255" green="153" blue="63" alpha="255"/>
+				<coordinates left="1126.30078125" top="0" width="139.55078125" height="136.421875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Artist" uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" id="9">
+		<field name="UUID" uuid="8226A3F188834BD18A6F3B5DD95B6724" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="UUID_Author" uuid="4269E3E5A0E349D8804E7CE188916D00" type="10" store_as_UUID="true" not_null="true" id="2">
+			<field_extra position="2"/>
+		</field>
+		<field name="UUID_Album" uuid="02CD9B3C3FFD41CBBFA65F21BF00982B" type="10" store_as_UUID="true" not_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<primary_key field_name="UUID" field_uuid="8226A3F188834BD18A6F3B5DD95B6724"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="4">
+				<color red="255" green="153" blue="63" alpha="255"/>
+				<coordinates left="1128.29296875" top="222.2109375" width="139.55078125" height="136.421875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Category" uuid="FA3D3CBB737C486890F81FF2F1FDAA71" id="10">
+		<field name="UUID" uuid="BF9E22A39F244368A7E7391508F1FB2B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="UUIDr_Category" uuid="478B10F931A54657A62B7B974FBB8FF6" type="10" limiting_length="255" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="name" uuid="2F02128B9ADF41E4B9C54C7B77324958" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="PrefixeCote" uuid="AB131FC6D7A141B7953256F3A7DD0064" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="more_info" uuid="C7F06B8D6E5E437B9A2EF1E6B4937390" type="21" never_null="true" id="5"/>
+		<field name="icone" uuid="99B51A5636D84EC09DC7165AA4F9A0C1" type="12" never_null="true" id="6"/>
+		<primary_key field_name="UUID" field_uuid="BF9E22A39F244368A7E7391508F1FB2B"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="114" green="209" blue="221" alpha="255"/>
+				<coordinates left="228.29296875" top="87.97265625" width="154.48828125" height="175.3046875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Publisher" uuid="B3FDF3CF4DE046FDBA035E258146F3CA" id="11">
+		<field name="UUID" uuid="08399C8B19A342D7A744C0881EE9CB96" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="name" uuid="47F0BAA5945DCE4A8503E0BC25C99AEF" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="UUID" field_uuid="08399C8B19A342D7A744C0881EE9CB96"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="5">
+				<color red="255" green="153" blue="63" alpha="255"/>
+				<coordinates left="414.98828125" top="23.33984375" width="132.23828125" height="147.16015625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Image" uuid="3ED494E6F68A4CBB8EE609A492CA0611" id="12">
+		<field name="UUID" uuid="0C2A8D264C6F4FCBB609565571CEB9A4" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="thumbnail" uuid="4F7B1DF37EE14B1386ECE1D595D2EA8D" type="12" never_null="true" id="2"/>
+		<field name="source" uuid="E716F2BDDEA844A393539476C083A6E3" type="10" limiting_length="255" never_null="true" id="3"/>
+		<primary_key field_name="UUID" field_uuid="0C2A8D264C6F4FCBB609565571CEB9A4"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="3">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="463.4453125" top="628.05078125" width="133.69140625" height="120.98828125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Operator" uuid="3D0E890A1DEC4F5FB1DB84951854355E" id="13">
+		<field name="UUID" uuid="ED08051A99D744B9ABDBEB2FC49B4426" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Civilty" uuid="0BF9F6C017E34546A841DE2E219467CF" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="LastName" uuid="FF4A2F8EA5054E56B089F68C6E27BA87" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="FirstName" uuid="F1908AE182DB4293804F67B9F8C0380E" type="10" limiting_length="255" never_null="true" id="4"/>
+		<primary_key field_name="UUID" field_uuid="ED08051A99D744B9ABDBEB2FC49B4426"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="249" green="130" blue="127" alpha="255"/>
+				<coordinates left="1914.37890625" top="728.3671875" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Artwork" uuid="5DC98E8D27354B1DB917EFA37351F20E" id="14">
+		<field name="UUID" uuid="FB9E42A6D540465FB8D82D480D1DBA55" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="title" uuid="D165623C29A54EEE8FE9A69C0B929A6A" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="UUID_Author" uuid="90EE225921E14BCC876418C794540910" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="3"/>
+		<primary_key field_name="UUID" field_uuid="FB9E42A6D540465FB8D82D480D1DBA55"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="226" green="158" blue="214" alpha="255"/>
+				<coordinates left="2337.22265625" top="28.1796875" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="NewsList" uuid="0BF61B5766AD4D1B824C4F415B176EBE" id="15">
+		<field name="UUID" uuid="1F9F7C50CE6F4D9AB6AFE42E995611F3" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Date" uuid="7C213A9C9BDF446F8E506CB11FC4D564" type="8" never_null="true" id="2"/>
+		<field name="Items" uuid="DF72681F03544FFD98C627F11825054A" type="21" never_null="true" id="3"/>
+		<field name="coming_soon" uuid="7265770CE4ED40AFB9E86FD9D21B74DD" type="1" never_null="true" id="4"/>
+		<primary_key field_name="UUID" field_uuid="1F9F7C50CE6F4D9AB6AFE42E995611F3"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="5">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="1874.50390625" top="151.46484375" width="179.7265625" height="159.75"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="nop" uuid="E9857405E8EB471886116C42B7AB2BB5" id="16">
+		<field name="ID" uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="in" uuid="8527F1A3D73E47768985C6594740F5AB" type="1" never_null="true" id="2"/>
+		<field name="case" uuid="65A978BC5EF44B96A0DC9BDC3C25AA0B" type="3" never_null="true" id="3"/>
+		<field name="of" uuid="8A822084FB3946069341FDBC4828F31C" type="18" never_null="true" id="4"/>
+		<field name="gits" uuid="7D5F156A797E43A6ABC2BC5432EF6394" type="9" never_null="true" id="5"/>
+		<field name="dsqc" uuid="7DCBB36DAEDD43E1B740F98C2F953CE0" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="newchamp" uuid="59D8813A21BC412F81DBDE8E0C2CF57B" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="9">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="27.31640625" width="124.84375" height="236.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="protection" uuid="C1F827F68FD84BDBB62FFFE08AC49B98" id="17">
+		<field name="ID" uuid="12BF990063BC4B05864763693754BAE1" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="nom" uuid="49172FCDF17A44EA84E573165B837B59" type="10" never_null="true" id="2"/>
+		<field name="departement" uuid="D70B12AA6FFD4AC6B46303867190120C" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="region" uuid="A12F4C53378D4DFEB557F38386276FAB" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Code" uuid="BA2165A3A8854650AA6F0DB31F3EC977" type="4" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="12BF990063BC4B05864763693754BAE1"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="150" green="216" blue="175" alpha="255"/>
+				<coordinates left="189.7734375" top="304.87109375" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="A145C0C96EC641E7A9984799D4BBC22F" name_Nto1="user" name_1toN="borrowings" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="652276385FC84E139F46C670ACB421E6" name="UUID_Citizen">
+				<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="F653D30A25F54576A49BE1F0C01253EA" name="UUID">
+				<table_ref uuid="D6FE2FEDFEB545EA8BD6543291FD89E2" name="Citizen"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="04FCF1337271454CB0AF5BBD6C0E6812" name_Nto1="cart" name_1toN="items" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="C74EA6ED2CC14FAFA826D2C8742ACB9B" name="UUID_Borrowing_cart">
+				<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="1166594C79C045119B7129A416C7DE41" name="UUID">
+				<table_ref uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" name="Borrowing_cart"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="602A5039CF9C437F9F8F1E4902ADA6CC" name_Nto1="borrower" name_1toN="carts" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="EEA45689EC4F424986B94D8DD9C84CD5" name="UUID_Citizen">
+				<table_ref uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" name="Borrowing_cart"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="F653D30A25F54576A49BE1F0C01253EA" name="UUID">
+				<table_ref uuid="D6FE2FEDFEB545EA8BD6543291FD89E2" name="Citizen"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="B230D5BB411443DC8E7604527C05656F" name_Nto1="book" name_1toN="borrowings" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="EA546A59203644F5A47517D66E04A234" name="UUID_Book">
+				<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="D3577F36C14B44E7800FB0F821980999" name="UUID">
+				<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="CD2BF1D513744146810669B5A758C348" name_Nto1="author" name_1toN="writers" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="15B28161750343ACA2B0730314E32EAD" name="UUID_Author">
+				<table_ref uuid="A22EDB135D7E413A810DA4471D196710" name="Owner"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8EA3695F906B42F19D9BF2D7BA221330" name="UUID">
+				<table_ref uuid="0C55034FC3E040129AE45715174CDC20" name="Author"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="73CE1E50DA7F4CB0BA5781C96608C9F8" name_Nto1="book" name_1toN="owners" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="C09213D300FF4E85AB9A780D93EFF228" name="UUID_Book">
+				<table_ref uuid="A22EDB135D7E413A810DA4471D196710" name="Owner"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="D3577F36C14B44E7800FB0F821980999" name="UUID">
+				<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="DB08AD4EF605431AB47555F4F6E2512C" name_Nto1="author" name_1toN="musicians" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4269E3E5A0E349D8804E7CE188916D00" name="UUID_Author">
+				<table_ref uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" name="Artist"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8EA3695F906B42F19D9BF2D7BA221330" name="UUID">
+				<table_ref uuid="0C55034FC3E040129AE45715174CDC20" name="Author"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="C86C9FB9BA7B41AE987B61F24B68D39B" name_Nto1="album" name_1toN="artists" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="02CD9B3C3FFD41CBBFA65F21BF00982B" name="UUID_Album">
+				<table_ref uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" name="Artist"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="ECF7C870C5CC490AA02A35A8493DE6DB" name="UUID">
+				<table_ref uuid="5035179D5E154156A3926C2F8B1C6CFD" name="Album"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="A9DEEFC6ADDE41DC8A4091DBCAB4B201" name_Nto1="publisher" name_1toN="books" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="B40EBA9344C24CAAA856EE40118409C3" name="UUID_Publisher">
+				<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="08399C8B19A342D7A744C0881EE9CB96" name="UUID">
+				<table_ref uuid="B3FDF3CF4DE046FDBA035E258146F3CA" name="Publisher"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="354AD332B1B44A80BEC154021B308CE6" name_Nto1="parentCategory" name_1toN="subCategories" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="478B10F931A54657A62B7B974FBB8FF6" name="UUIDr_Category">
+				<table_ref uuid="FA3D3CBB737C486890F81FF2F1FDAA71" name="Category"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="BF9E22A39F244368A7E7391508F1FB2B" name="UUID">
+				<table_ref uuid="FA3D3CBB737C486890F81FF2F1FDAA71" name="Category"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="7" blue="13" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="E5C03B0A39EC4597B8D8BF88A5EDE517" name_Nto1="author" name_1toN="artworks" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="90EE225921E14BCC876418C794540910" name="UUID_Author">
+				<table_ref uuid="5DC98E8D27354B1DB917EFA37351F20E" name="Artwork"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8EA3695F906B42F19D9BF2D7BA221330" name="UUID">
+				<table_ref uuid="0C55034FC3E040129AE45715174CDC20" name="Author"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="2CA9A5ADBCD2B9428D431B2CDCDD3434" name_Nto1="album" name_1toN="items" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="6A84677BA07A1244A2379C87E77F0C27" name="UUID_Album">
+				<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="ECF7C870C5CC490AA02A35A8493DE6DB" name="UUID">
+				<table_ref uuid="5035179D5E154156A3926C2F8B1C6CFD" name="Album"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="00852E7D328C465FB93BF172A73FC6B1" type="1">
+		<field_ref uuid="8226A3F188834BD18A6F3B5DD95B6724" name="UUID">
+			<table_ref uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" name="Artist"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0DE3EC5805DB4E4D80EA3872B5736502" type="3">
+		<field_ref uuid="A4F99DCA1E7C4E78ABC5BCCFB27B25F4" name="categories">
+			<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1059D66B7CBF4CB785EEC4F4412AD6D8" type="1">
+		<field_ref uuid="02CD9B3C3FFD41CBBFA65F21BF00982B" name="UUID_Album">
+			<table_ref uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" name="Artist"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="11FE71D60B7C42DA9FEB88AF48B95B27" type="7">
+		<field_ref uuid="BF9E22A39F244368A7E7391508F1FB2B" name="UUID">
+			<table_ref uuid="FA3D3CBB737C486890F81FF2F1FDAA71" name="Category"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="1AEF1DBD28DF43739DD0768CE8D0425C" type="7">
+		<field_ref uuid="8EA3695F906B42F19D9BF2D7BA221330" name="UUID">
+			<table_ref uuid="0C55034FC3E040129AE45715174CDC20" name="Author"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1B7C434475AF4214B3906CB92E959341" type="3">
+		<field_ref uuid="15B28161750343ACA2B0730314E32EAD" name="UUID_Author">
+			<table_ref uuid="A22EDB135D7E413A810DA4471D196710" name="Owner"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="33315D2F4A9840DBBCBBEE1E23BF5C0D" type="3">
+		<field_ref uuid="C09213D300FF4E85AB9A780D93EFF228" name="UUID_Book">
+			<table_ref uuid="A22EDB135D7E413A810DA4471D196710" name="Owner"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="41CCFADC322D4F589A45197E899DEFFD" type="7">
+		<field_ref uuid="1FF1AF5418B54E69A1465468EDF1143A" name="UUID">
+			<table_ref uuid="A22EDB135D7E413A810DA4471D196710" name="Owner"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4EDA69E0C2214275A4494F02A7732CBF" type="1">
+		<field_ref uuid="DAAAF01EA6624B248D70A4B1FEC39E54" name="permalink">
+			<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5087694515244F0EB4D717104A4D2C92" type="3">
+		<field_ref uuid="478B10F931A54657A62B7B974FBB8FF6" name="UUIDr_Category">
+			<table_ref uuid="FA3D3CBB737C486890F81FF2F1FDAA71" name="Category"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="6DBF0A16609543F494EF13B23F083E2A" type="7">
+		<field_ref uuid="D3577F36C14B44E7800FB0F821980999" name="UUID">
+			<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="726CE748541F463AA8603715201B6315" type="3">
+		<field_ref uuid="C74EA6ED2CC14FAFA826D2C8742ACB9B" name="UUID_Borrowing_cart">
+			<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="739C2A572AF34BC7A94241967FC6F20E" type="3">
+		<field_ref uuid="6A84677BA07A1244A2379C87E77F0C27" name="UUID_Album">
+			<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="75D79D323D5B477C8E986B48F1FF4B5D" type="3">
+		<field_ref uuid="EA546A59203644F5A47517D66E04A234" name="UUID_Book">
+			<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9E9E08429F89424B88A1815F555AB7C5" type="7">
+		<field_ref uuid="12BF990063BC4B05864763693754BAE1" name="ID">
+			<table_ref uuid="C1F827F68FD84BDBB62FFFE08AC49B98" name="protection"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A82961E276CF4D7DBABB056A34004BA5" type="3">
+		<field_ref uuid="652276385FC84E139F46C670ACB421E6" name="UUID_Citizen">
+			<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A94F6C494EB5453DBA2BE157A24EAB6A" type="7">
+		<field_ref uuid="FB9E42A6D540465FB8D82D480D1DBA55" name="UUID">
+			<table_ref uuid="5DC98E8D27354B1DB917EFA37351F20E" name="Artwork"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A9B37C3F64074CD3A886E7ADA9CAE73D" type="3">
+		<field_ref uuid="EEA45689EC4F424986B94D8DD9C84CD5" name="UUID_Citizen">
+			<table_ref uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" name="Borrowing_cart"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B19D55686F644C4BBD9EF4AACFC21C07" type="3">
+		<field_ref uuid="B40EBA9344C24CAAA856EE40118409C3" name="UUID_Publisher">
+			<table_ref uuid="8B92B5509DA4434AB7E67906195763BB" name="Book"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B4ABEF6119874D6D8CA9D830F87CBC93" type="1">
+		<field_ref uuid="F653D30A25F54576A49BE1F0C01253EA" name="UUID">
+			<table_ref uuid="D6FE2FEDFEB545EA8BD6543291FD89E2" name="Citizen"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="BC67CDC850D54E6AA95E0FFD82588427" type="7">
+		<field_ref uuid="18970F5095C4481CB3757D8753706470" name="UUID">
+			<table_ref uuid="F166B51CF31A41A2857737C155976262" name="Borrowing_Item"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C599604518F24194888C2CA9AD2D8A35" type="7">
+		<field_ref uuid="1F9F7C50CE6F4D9AB6AFE42E995611F3" name="UUID">
+			<table_ref uuid="0BF61B5766AD4D1B824C4F415B176EBE" name="NewsList"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="CB6F0A0A115842B09B23B53CA505018B" type="7">
+		<field_ref uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB" name="ID">
+			<table_ref uuid="E9857405E8EB471886116C42B7AB2BB5" name="nop"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="CD036256A5D14813A3154491D11E8C93" type="7">
+		<field_ref uuid="ECF7C870C5CC490AA02A35A8493DE6DB" name="UUID">
+			<table_ref uuid="5035179D5E154156A3926C2F8B1C6CFD" name="Album"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="CE94E2CFD95D44239A43D2ED180D5FA4" type="7">
+		<field_ref uuid="B3CC911F2C20411FA40C2F2C27178F4D" name="UUID">
+			<table_ref uuid="095D68B6300D4878A86CBEFE5879846B" name="ID_to_UUID"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="D3A51ECD55A042B7AFA3B8061F288AEC" type="7">
+		<field_ref uuid="ED08051A99D744B9ABDBEB2FC49B4426" name="UUID">
+			<table_ref uuid="3D0E890A1DEC4F5FB1DB84951854355E" name="Operator"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="D784C12666C64669AD1B20E6737CE789" type="7">
+		<field_ref uuid="0C2A8D264C6F4FCBB609565571CEB9A4" name="UUID">
+			<table_ref uuid="3ED494E6F68A4CBB8EE609A492CA0611" name="Image"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E7B5EB9E3E554B88930D981E7E4A9742" type="3">
+		<field_ref uuid="90EE225921E14BCC876418C794540910" name="UUID_Author">
+			<table_ref uuid="5DC98E8D27354B1DB917EFA37351F20E" name="Artwork"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="F6186A56A18F4555B08E8F356B72FC93" type="7">
+		<field_ref uuid="08399C8B19A342D7A744C0881EE9CB96" name="UUID">
+			<table_ref uuid="B3FDF3CF4DE046FDBA035E258146F3CA" name="Publisher"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="FDEA7E6EC998451696FE2D6BCCD28EBF" type="1">
+		<field_ref uuid="4269E3E5A0E349D8804E7CE188916D00" name="UUID_Author">
+			<table_ref uuid="26F83B2BB1CD43FB8FE606AB6BF5F069" name="Artist"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FF457EF44DFE4E8DAF48D9732AF2E4FC" type="7">
+		<field_ref uuid="1166594C79C045119B7129A416C7DE41" name="UUID">
+			<table_ref uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" name="Borrowing_cart"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0" package_name="MyTownLibrary" structure_file_name="MyTownLibrary" data_file_path=":MyTownLibrary.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

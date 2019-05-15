@@ -1,0 +1,1 @@
+RELATE ONE:C42([Borrowing_cart:6]UUID_Citizen:2)

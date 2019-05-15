@@ -1,0 +1,722 @@
+﻿{
+	"Sources/Methods/Méthode 1.4dm": {
+		"left": 0,
+		"top": 329,
+		"width": 1280,
+		"height": 571
+	},
+	"Sources/Methods/mtl_table_definition.4dm": {
+		"left": 79,
+		"top": 131,
+		"width": 1440,
+		"height": 728
+	},
+	"Sources/Methods/sfw_launch_mainForm.4dm": {
+		"left": 0,
+		"top": 756,
+		"width": 863,
+		"height": 444
+	},
+	"Sources/Methods/sfw_init_mainForm.4dm": {
+		"left": 662,
+		"top": 420,
+		"width": 1196,
+		"height": 728
+	},
+	"Sources/Methods/sfw_filter_table_by_perspective.4dm": {
+		"left": 1200,
+		"top": 522,
+		"width": 631,
+		"height": 350
+	},
+	"Sources/Methods/sfw_fill_lb_tables.4dm": {
+		"left": 536,
+		"top": 146,
+		"width": 1037,
+		"height": 571
+	},
+	"Sources/Methods/sfw_select_first_table.4dm": {
+		"left": 468,
+		"top": 709,
+		"width": 911,
+		"height": 407
+	},
+	"Sources/Methods/sfw_fill_lb_items.4dm": {
+		"left": 210,
+		"top": 413,
+		"width": 1235,
+		"height": 728
+	},
+	"Sources/Methods/sfw_resize_mainFormObjects.4dm": {
+		"left": 631,
+		"top": 734,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/zzzzzMAJ_Donnees_Author.4dm": {
+		"left": 117,
+		"top": 168,
+		"width": 1736,
+		"height": 802
+	},
+	"Sources/Methods/sfw_display_item.4dm": {
+		"left": 776,
+		"top": 208,
+		"width": 858,
+		"height": 728
+	},
+	"Sources/Methods/Author_add.4dm": {
+		"left": 910,
+		"top": 103,
+		"width": 1067,
+		"height": 632
+	},
+	"Sources/Methods/sfw_sort_lb_items.4dm": {
+		"left": 881,
+		"top": 691,
+		"width": 866,
+		"height": 443
+	},
+	"Sources/Methods/sfw_compute_perspective_pup.4dm": {
+		"left": 523,
+		"top": 168,
+		"width": 1219,
+		"height": 638
+	},
+	"Sources/Methods/sfw_search_lb_items.4dm": {
+		"left": 737,
+		"top": 205,
+		"width": 1023,
+		"height": 728
+	},
+	"Sources/Methods/Author_del.4dm": {
+		"left": 953,
+		"top": 653,
+		"width": 900,
+		"height": 547
+	},
+	"Sources/Methods/swfw_load_router.4dm": {
+		"left": 46,
+		"top": 276,
+		"width": 1561,
+		"height": 685
+	},
+	"Sources/Methods/swfw_load_section.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_init_session.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_init_request.4dm": {
+		"left": 223,
+		"top": 151,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_findHandlerRequest.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_filterRequestNotAuth.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_dispatcher.4dm": {
+		"left": 149,
+		"top": 127,
+		"width": 1608,
+		"height": 883
+	},
+	"Sources/Methods/COMPILER_WEB.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_login.4dm": {
+		"left": 411,
+		"top": 251,
+		"width": 1440,
+		"height": 675
+	},
+	"Sources/Methods/swfw_logout.4dm": {
+		"left": 169,
+		"top": 434,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/Book_web_display_items.4dm": {
+		"left": 511,
+		"top": 116,
+		"width": 1361,
+		"height": 749
+	},
+	"Sources/Methods/Book_web_display_item.4dm": {
+		"left": 21,
+		"top": 189,
+		"width": 1784,
+		"height": 675
+	},
+	"Sources/Methods/swfw_searchItem.4dm": {
+		"left": 161,
+		"top": 220,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/Picture_web_display.4dm": {
+		"left": 161,
+		"top": 220,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/swfw_pagination_build.4dm": {
+		"left": 161,
+		"top": 113,
+		"width": 1608,
+		"height": 891
+	},
+	"Sources/Methods/Cart_web_build_currentCart.4dm": {
+		"left": 235,
+		"top": 145,
+		"width": 1210,
+		"height": 675
+	},
+	"Sources/Methods/Cart_web_display_currendCart.4dm": {
+		"left": 73,
+		"top": 340,
+		"width": 838,
+		"height": 675
+	},
+	"Sources/Methods/Cart_web_drawPict_ProgressCarts.4dm": {
+		"left": 431,
+		"top": 208,
+		"width": 1378,
+		"height": 729
+	},
+	"Sources/Methods/Cart_web_drawSVGPict.4dm": {
+		"left": 164,
+		"top": 371,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/Category_web_build_items.4dm": {
+		"left": 434,
+		"top": 143,
+		"width": 1422,
+		"height": 858
+	},
+	"Sources/Methods/Category_web_init_items.4dm": {
+		"left": 0,
+		"top": 22,
+		"width": 1920,
+		"height": 990
+	},
+	"Sources/Methods/Category_web_filter_items.4dm": {
+		"left": 98,
+		"top": 374,
+		"width": 1298,
+		"height": 675
+	},
+	"Sources/Methods/Album_web_display_items.4dm": {
+		"left": 176,
+		"top": 128,
+		"width": 1626,
+		"height": 835
+	},
+	"Sources/Methods/Album_web_display_item.4dm": {
+		"left": 205,
+		"top": 220,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/Category_web_display_items.4dm": {
+		"left": 485,
+		"top": 179,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/Category_web_display_AlbumBook.4dm": {
+		"left": 171,
+		"top": 118,
+		"width": 1608,
+		"height": 879
+	},
+	"Sources/Methods/Cart_web_HandleCarts.4dm": {
+		"left": 167,
+		"top": 118,
+		"width": 1716,
+		"height": 819
+	},
+	"Sources/Methods/Cart_web_display_validatedCarts.4dm": {
+		"left": 178,
+		"top": 148,
+		"width": 1513,
+		"height": 722
+	},
+	"Sources/Methods/Cart_web_deleteItem.4dm": {
+		"left": 113,
+		"top": 199,
+		"width": 1608,
+		"height": 737
+	},
+	"Sources/Methods/Cart_web_isOK_To_AddItem.4dm": {
+		"left": 411,
+		"top": 139,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/__4D_test.4dm": {
+		"left": 21,
+		"top": 175,
+		"width": 858,
+		"height": 711
+	},
+	"Sources/Methods/Cart_web_filter_empty_obj.4dm": {
+		"left": 917,
+		"top": 284,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/__import_books_from_folder.4dm": {
+		"left": 235,
+		"top": 138,
+		"width": 1285,
+		"height": 835
+	},
+	"Sources/Methods/__import_albums_from_folder.4dm": {
+		"left": 316,
+		"top": 126,
+		"width": 1285,
+		"height": 835
+	},
+	"Sources/Methods/_errCall.4dm": {
+		"left": 117,
+		"top": 168,
+		"width": 1440,
+		"height": 728
+	},
+	"Sources/Methods/Category_web_get_itemByUUID.4dm": {
+		"left": 117,
+		"top": 168,
+		"width": 1736,
+		"height": 802
+	},
+	"Sources/Methods/Cart_web_get_status_label.4dm": {
+		"left": 314,
+		"top": 376,
+		"width": 1608,
+		"height": 675
+	},
+	"Sources/Methods/sfw_update_inside_panel.4dm": {
+		"left": 895,
+		"top": 473,
+		"width": 924,
+		"height": 488
+	},
+	"Sources/Methods/sfw_formMethod_panel.4dm": {
+		"left": 1055,
+		"top": 695,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/sfw_displayBtn_modifyItem.4dm": {
+		"left": 64,
+		"top": 342,
+		"width": 779,
+		"height": 632
+	},
+	"Sources/Methods/sfw_get_meta_info_lb_items.4dm": {
+		"left": 534,
+		"top": 670,
+		"width": 550,
+		"height": 440
+	},
+	"Sources/Methods/Author_metainfo.4dm": {
+		"left": 501,
+		"top": 103,
+		"width": 1138,
+		"height": 687
+	},
+	"Sources/Methods/sfw_resize_panels.4dm": {
+		"left": 345,
+		"top": 336,
+		"width": 1365,
+		"height": 797
+	},
+	"Sources/Methods/Author_load.4dm": {
+		"left": 937,
+		"top": 791,
+		"width": 859,
+		"height": 376
+	},
+	"Sources/Methods/Méthode 64.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 1146,
+		"height": 728
+	},
+	"Sources/Methods/Citizen_load.4dm": {
+		"left": 858,
+		"top": 302,
+		"width": 924,
+		"height": 488
+	},
+	"Sources/Methods/swfw_init_webServer.4dm": {
+		"left": 940,
+		"top": 258,
+		"width": 929,
+		"height": 728
+	},
+	"Sources/Methods/Méthode 67.4dm": {
+		"left": 560,
+		"top": 499,
+		"width": 997,
+		"height": 629
+	},
+	"Sources/Methods/zzzzCreateRandomCarts.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 946
+	},
+	"Sources/Methods/Borrowing_cart_load.4dm": {
+		"left": 850,
+		"top": 415,
+		"width": 959,
+		"height": 728
+	},
+	"Sources/Methods/Borrower_subset.4dm": {
+		"left": 576,
+		"top": 419,
+		"width": 1253,
+		"height": 667
+	},
+	"Sources/Methods/Borrowing_cart_state.4dm": {
+		"left": 576,
+		"top": 419,
+		"width": 1253,
+		"height": 667
+	},
+	"Sources/Methods/Borrowing_cart_metainfo.4dm": {
+		"left": 737,
+		"top": 205,
+		"width": 1023,
+		"height": 728
+	},
+	"Sources/Methods/Borrowing_cart_buildChrono.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 728
+	},
+	"Sources/Methods/Album_load.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 728
+	},
+	"Sources/Methods/_01srcctrl.4dm": {
+		"left": 27,
+		"top": 200,
+		"width": 1367,
+		"height": 554
+	},
+	"Sources/Methods/meth003.4dm": {
+		"left": 32,
+		"top": 401,
+		"width": 1367,
+		"height": 526
+	},
+	"Sources/Methods/meth004.4dm": {
+		"left": 32,
+		"top": 401,
+		"width": 1367,
+		"height": 526
+	},
+	"Sources/Methods/_02dynfrm.4dm": {
+		"left": 143,
+		"top": 152,
+		"width": 1283,
+		"height": 680
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 0,
+		"top": 306,
+		"width": 1280,
+		"height": 728
+	},
+	"Sources/DatabaseMethods/onServerStartup.4dm": {
+		"left": 296,
+		"top": 167,
+		"width": 1440,
+		"height": 675
+	},
+	"Sources/DatabaseMethods/onWebConnection.4dm": {
+		"left": 98,
+		"top": 725,
+		"width": 1310,
+		"height": 392
+	},
+	"Sources/DatabaseMethods/onWebAuthentication.4dm": {
+		"left": 477,
+		"top": 343,
+		"width": 953,
+		"height": 350
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton.4dm": {
+		"left": 652,
+		"top": 527,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton1.4dm": {
+		"left": 626,
+		"top": 393,
+		"width": 778,
+		"height": 709
+	},
+	"Sources/Forms/Test_2entities/ObjectMethods/Bouton2.4dm": {
+		"left": 895,
+		"top": 473,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Test_Detail/method.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Test_Detail/ObjectMethods/Bouton.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Test_Detail/ObjectMethods/Bouton1.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/sfw_mainForm/method.4dm": {
+		"left": 312,
+		"top": 719,
+		"width": 765,
+		"height": 441
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/lb_items.4dm": {
+		"left": 106,
+		"top": 247,
+		"width": 865,
+		"height": 381
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/sf_panel.4dm": {
+		"left": 0,
+		"top": 103,
+		"width": 1347,
+		"height": 612
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/pup_perspective.4dm": {
+		"left": 800,
+		"top": 480,
+		"width": 911,
+		"height": 407
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/lb_tables.4dm": {
+		"left": 727,
+		"top": 703,
+		"width": 1078,
+		"height": 411
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/SearchPicker.4dm": {
+		"left": 476,
+		"top": 356,
+		"width": 1184,
+		"height": 438
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bAdd.4dm": {
+		"left": 478,
+		"top": 553,
+		"width": 1608,
+		"height": 833
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bDel.4dm": {
+		"left": 170,
+		"top": 486,
+		"width": 1302,
+		"height": 617
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bValidate.4dm": {
+		"left": 369,
+		"top": 734,
+		"width": 765,
+		"height": 441
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bCancel.4dm": {
+		"left": 312,
+		"top": 719,
+		"width": 765,
+		"height": 441
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bLock.4dm": {
+		"left": 312,
+		"top": 719,
+		"width": 765,
+		"height": 441
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/bMode.4dm": {
+		"left": 809,
+		"top": 337,
+		"width": 1064,
+		"height": 863
+	},
+	"Sources/Forms/sfw_mainForm/ObjectMethods/sf_panel_twin.4dm": {
+		"left": 895,
+		"top": 473,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/zzzTest_Entity/method.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/zzzTest_DoublonEntity/method.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/zzzTest_DoublonForm/method.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Book_panel/method.4dm": {
+		"left": 745,
+		"top": 649,
+		"width": 983,
+		"height": 486
+	},
+	"Sources/Forms/Album_panel/method.4dm": {
+		"left": 354,
+		"top": 150,
+		"width": 1608,
+		"height": 833
+	},
+	"Sources/Forms/Author_panel/method.4dm": {
+		"left": 17,
+		"top": 670,
+		"width": 1242,
+		"height": 535
+	},
+	"Sources/Forms/sfw_secondaryForm/method.4dm": {
+		"left": 1019,
+		"top": 601,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Citizen_panel/method.4dm": {
+		"left": 531,
+		"top": 395,
+		"width": 1058,
+		"height": 728
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/_input_codepostal.4dm": {
+		"left": 189,
+		"top": 713,
+		"width": 890,
+		"height": 350
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/_input_city.4dm": {
+		"left": 571,
+		"top": 306,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/bOtherCP.4dm": {
+		"left": 596,
+		"top": 219,
+		"width": 1023,
+		"height": 760
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/List Box.4dm": {
+		"left": 775,
+		"top": 712,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/Citizen_panel/ObjectMethods/Bouton.4dm": {
+		"left": 501,
+		"top": 103,
+		"width": 1138,
+		"height": 687
+	},
+	"Sources/Forms/Borrowing_cart_panel/method.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 946
+	},
+	"Sources/Forms/Borrowing_cart_panel/ObjectMethods/bDisponible.4dm": {
+		"left": 673,
+		"top": 557,
+		"width": 1138,
+		"height": 687
+	},
+	"Sources/Forms/Borrowing_cart_panel/ObjectMethods/bRappel.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 946
+	},
+	"Sources/Forms/writeProFullText/method.4dm": {
+		"left": 612,
+		"top": 562,
+		"width": 859,
+		"height": 376
+	},
+	"Sources/Forms/writeProFullText/ObjectMethods/vNbCol.4dm": {
+		"left": 263,
+		"top": 103,
+		"width": 1264,
+		"height": 946
+	},
+	"Sources/Forms/_dynfrmWIZ/method.4dm": {
+		"left": 147,
+		"top": 188,
+		"width": 1283,
+		"height": 680
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton.4dm": {
+		"left": 468,
+		"top": 437,
+		"width": 1367,
+		"height": 554
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton1.4dm": {
+		"left": 243,
+		"top": 246,
+		"width": 1440,
+		"height": 728
+	},
+	"Sources/Forms/_dynfrmWIZ/ObjectMethods/Bouton2.4dm": {
+		"left": 147,
+		"top": 188,
+		"width": 1283,
+		"height": 680
+	}
+}

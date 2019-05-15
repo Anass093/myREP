@@ -1,0 +1,370 @@
+﻿{
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 36,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Prénom"
+				},
+				"_input_firstName": {
+					"type": "input",
+					"top": 36,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.firstName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 61,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Nom"
+				},
+				"_input_lastName": {
+					"type": "input",
+					"top": 61,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.lastName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 11,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Civilité"
+				},
+				"_input_civility": {
+					"type": "input",
+					"top": 11,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.civility",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 162,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "CP / VIlle"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 137,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Rue"
+				},
+				"_input_address": {
+					"type": "input",
+					"top": 137,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.address.address[0].detail.street_1",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"_input_codepostal": {
+					"type": "input",
+					"top": 162,
+					"left": 151,
+					"width": 56,
+					"height": 17,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/_input_codepostal.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"_input_city": {
+					"type": "input",
+					"top": 162,
+					"left": 212,
+					"width": 295,
+					"height": 17,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/_input_city.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"bOtherCP": {
+					"type": "button",
+					"top": 160,
+					"left": 512,
+					"width": 24,
+					"height": 21,
+					"style": "roundedDisclosure",
+					"method": "ObjectMethods/bOtherCP.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 202,
+					"left": 151,
+					"width": 356,
+					"height": 155,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "collection",
+					"focusable": false,
+					"movableRows": false,
+					"dataSource": "Form:C1466.entity.carts",
+					"currentItemSource": "Form:C1466.cart",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"method": "ObjectMethods/List Box.4dm",
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Colonne2",
+							"dataSource": "Borrowing_cart_state (This:C1470.current_state)",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Etat"
+							}
+						},
+						{
+							"name": "Colonne1",
+							"dataSource": "This:C1470.state_history[\"1\"]",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Date"
+							}
+						},
+						{
+							"name": "Colonne6",
+							"dataSource": "This:C1470.items.book.length",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête6",
+								"text": "Nb livres"
+							}
+						},
+						{
+							"name": "Colonne3",
+							"dataSource": "This:C1470.items.album.length",
+							"width": 85,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête3",
+								"text": "Nb albums"
+							}
+						}
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 202,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Lots d'emprunt"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 369,
+					"left": 151,
+					"width": 356,
+					"height": 175,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "collection",
+					"focusable": false,
+					"movableRows": false,
+					"dataSource": "Form:C1466.borrowing_items",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne4",
+							"dataSource": "This:C1470.kind",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête4",
+								"text": "Nature"
+							}
+						},
+						{
+							"name": "Colonne5",
+							"dataSource": "This:C1470.title",
+							"width": 265,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête5",
+								"text": "Titre"
+							}
+						}
+					]
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 369,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Elements"
+				},
+				"Séparateur": {
+					"type": "splitter",
+					"top": 362,
+					"left": 12,
+					"width": 532,
+					"height": 6,
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 98,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "e-mail"
+				},
+				"_input_lastName1": {
+					"type": "input",
+					"top": 98,
+					"left": 150,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.email_login",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 98,
+					"left": 512,
+					"width": 71,
+					"height": 17,
+					"text": "Ecrire",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

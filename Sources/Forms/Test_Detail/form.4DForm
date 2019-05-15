@@ -1,0 +1,144 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte3": {
+					"type": "text",
+					"top": 26,
+					"left": 23,
+					"width": 104,
+					"height": 17,
+					"text": "Nom : "
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 26,
+					"left": 138,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.people.FirstName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 56,
+					"left": 23,
+					"width": 104,
+					"height": 17,
+					"text": "Prénom : "
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 56,
+					"left": 138,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.people.LastName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 86,
+					"left": 23,
+					"width": 104,
+					"height": 17,
+					"text": "e-mail : "
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 86,
+					"left": 138,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.people.email_login",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 116,
+					"left": 23,
+					"width": 104,
+					"height": 17,
+					"text": "password : "
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 116,
+					"left": 138,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.people.password",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 177,
+					"left": 168,
+					"width": 98,
+					"height": 51,
+					"text": "SAVE",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 177,
+					"left": 50,
+					"width": 98,
+					"height": 51,
+					"text": "duplicate",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,283 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 16,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Numéro du lot"
+				},
+				"number": {
+					"type": "input",
+					"top": 16,
+					"left": 174,
+					"width": 122,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.number",
+					"fill": "transparent",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"focusable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 76,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Prénom"
+				},
+				"_input_firstName": {
+					"type": "input",
+					"top": 76,
+					"left": 174,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.borrower.firstName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 101,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Nom"
+				},
+				"_input_lastName": {
+					"type": "input",
+					"top": 101,
+					"left": 174,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.borrower.lastName",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 51,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Civilité"
+				},
+				"_input_civility": {
+					"type": "input",
+					"top": 51,
+					"left": 174,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.borrower.civility",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 125,
+					"left": 174,
+					"width": 356,
+					"height": 175,
+					"listboxType": "collection",
+					"focusable": false,
+					"movableRows": false,
+					"dataSource": "Form:C1466.borrowing_items",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne2",
+							"dataSource": "This:C1470.kind",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Nature"
+							}
+						},
+						{
+							"name": "Colonne1",
+							"dataSource": "This:C1470.title",
+							"width": 265,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Titre"
+							}
+						}
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 125,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Elements"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 310,
+					"left": 174,
+					"width": 356,
+					"height": 175,
+					"listboxType": "collection",
+					"focusable": false,
+					"movableRows": false,
+					"dataSource": "Form:C1466.chrono",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne3",
+							"dataSource": "This:C1470.state",
+							"width": 175,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête3",
+								"text": "Etat"
+							}
+						},
+						{
+							"name": "Colonne4",
+							"dataSource": "This:C1470.date",
+							"dataSourceTypeHint": "date",
+							"width": 166,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"dateFormat": "short",
+							"textAlign": "left",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête4",
+								"text": "Date"
+							}
+						}
+					]
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 310,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Chronologie"
+				},
+				"bDisponible": {
+					"type": "button",
+					"top": 333,
+					"left": 23,
+					"width": 138,
+					"height": 21,
+					"text": "Rendre disponible",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"focusable": false,
+					"method": "ObjectMethods/bDisponible.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bRappel": {
+					"type": "button",
+					"top": 358,
+					"left": 23,
+					"width": 138,
+					"height": 21,
+					"text": "e-mail rappel",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"focusable": false,
+					"method": "ObjectMethods/bRappel.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

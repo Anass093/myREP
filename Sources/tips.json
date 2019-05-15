@@ -1,0 +1,20 @@
+﻿{
+	"Premier enreg.": "Premier enregistrement",
+	"Enreg. précéden": "Enregistrement précédent",
+	"Enreg. suivant": "Enregistrement suivant",
+	"Dernier enreg.": "Dernier enregistrement",
+	"Supprimer enreg": "Supprimer enregistrement",
+	"Annuler": "Annuler",
+	"OK": "Valider",
+	"Numéro enreg.": "Place enregistrement dans sélection",
+	"Ajouter": "Ajouter un enregistrement",
+	"Supprimer sélec": "Supprimer enregistrements sélectionnés",
+	"Tout afficher": "Ajouter tous les enregistrements",
+	"Afficher sélec.": "Afficher les enregistrements sélectionnés",
+	"Rechercher": "Recherche...",
+	"Trier": "Trier...",
+	"Etats semi-auto": "Etats semi-automatiques",
+	"Imprimer étique": "Imprimer étiquettes",
+	"Imprimer sélect": "Imprimer sélection",
+	"Terminer": "Terminer"
+}

@@ -1,0 +1,708 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 659,
+	"markerBreak": 659,
+	"markerFooter": 669,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 96,
+					"left": 554,
+					"width": 100,
+					"height": 12,
+					"fill": "transparent",
+					"stroke": "#000000",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Numéro enreg."
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Texte16": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 515,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"text": "Book"
+				},
+				"Line17": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 644,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte18": {
+					"type": "text",
+					"top": 126,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "UUID : "
+				},
+				"Texte19": {
+					"type": "text",
+					"top": 153,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "title : "
+				},
+				"Texte20": {
+					"type": "text",
+					"top": 180,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "subtitle : "
+				},
+				"Texte21": {
+					"type": "text",
+					"top": 207,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "UUID_Publisher : "
+				},
+				"Texte22": {
+					"type": "text",
+					"top": 234,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "description : "
+				},
+				"Texte23": {
+					"type": "text",
+					"top": 309,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "publishedDate : "
+				},
+				"Texte24": {
+					"type": "text",
+					"top": 336,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "ISBN13 : "
+				},
+				"Texte25": {
+					"type": "text",
+					"top": 363,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "images : "
+				},
+				"Texte26": {
+					"type": "text",
+					"top": 438,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "language : "
+				},
+				"Texte27": {
+					"type": "text",
+					"top": 465,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "pageCount : "
+				},
+				"Texte28": {
+					"type": "text",
+					"top": 492,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "categories : "
+				},
+				"Texte29": {
+					"type": "text",
+					"top": 567,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "more_info : "
+				},
+				"Texte30": {
+					"type": "text",
+					"top": 642,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "cote : "
+				},
+				"UUID": {
+					"type": "input",
+					"top": 126,
+					"left": 334,
+					"width": 250,
+					"height": 17,
+					"dataSource": "[Book:1]UUID:1",
+					"fill": "transparent",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"title": {
+					"type": "input",
+					"top": 153,
+					"left": 334,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Book:1]title:2",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"subtitle": {
+					"type": "input",
+					"top": 180,
+					"left": 334,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Book:1]subtitle:3",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"UUID_Publisher": {
+					"type": "input",
+					"top": 207,
+					"left": 334,
+					"width": 250,
+					"height": 17,
+					"dataSource": "[Book:1]UUID_Publisher:4",
+					"fill": "transparent",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"description": {
+					"type": "input",
+					"top": 234,
+					"left": 334,
+					"width": 234,
+					"height": 65,
+					"dataSource": "[Book:1]description:5",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"publishedDate": {
+					"type": "input",
+					"top": 309,
+					"left": 334,
+					"width": 81,
+					"height": 17,
+					"dataSource": "[Book:1]publishedDate:6",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ISBN13": {
+					"type": "input",
+					"top": 336,
+					"left": 334,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Book:1]ISBN13:7",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"images": {
+					"type": "input",
+					"top": 363,
+					"left": 334,
+					"width": 234,
+					"height": 65,
+					"dataSource": "[Book:1]images:8",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"language": {
+					"type": "input",
+					"top": 438,
+					"left": 334,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Book:1]language:9",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"pageCount": {
+					"type": "input",
+					"top": 465,
+					"left": 334,
+					"width": 56,
+					"height": 17,
+					"dataSource": "[Book:1]pageCount:10",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"categories": {
+					"type": "input",
+					"top": 492,
+					"left": 334,
+					"width": 234,
+					"height": 65,
+					"dataSource": "[Book:1]categories:11",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"more_info": {
+					"type": "input",
+					"top": 567,
+					"left": 334,
+					"width": 234,
+					"height": 65,
+					"dataSource": "[Book:1]more_info:12",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"cote": {
+					"type": "input",
+					"top": 642,
+					"left": 334,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Book:1]cote:13",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 667,
+					"left": 220,
+					"width": 109,
+					"height": 17,
+					"textAlign": "right",
+					"text": "full text : "
+				},
+				"cote1": {
+					"type": "input",
+					"top": 667,
+					"left": 334,
+					"width": 305,
+					"height": 81,
+					"dataSource": "[Book:1]fulltext:15",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

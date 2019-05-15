@@ -1,0 +1,114 @@
+﻿{
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 13,
+					"left": 17,
+					"width": 323,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Entrez le nom et prénom du nouvel auteur"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 43,
+					"left": 56,
+					"width": 82,
+					"height": 17,
+					"text": "Prénom"
+				},
+				"firstName": {
+					"type": "input",
+					"top": 43,
+					"left": 175,
+					"width": 208,
+					"height": 17,
+					"dataSource": "Form:C1466.firstName",
+					"placeholder": "prénom",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 68,
+					"left": 56,
+					"width": 82,
+					"height": 17,
+					"text": "Nom"
+				},
+				"lastName": {
+					"type": "input",
+					"top": 68,
+					"left": 175,
+					"width": 208,
+					"height": 17,
+					"dataSource": "Form:C1466.lastName",
+					"placeholder": "nom",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 96,
+					"left": 353,
+					"width": 30,
+					"height": 30,
+					"action": "accept",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 96,
+					"left": 325,
+					"width": 30,
+					"height": 30,
+					"action": "cancel",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

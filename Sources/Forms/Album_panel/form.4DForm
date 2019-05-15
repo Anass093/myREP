@@ -1,0 +1,73 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 16,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Titre"
+				},
+				"_input_title": {
+					"type": "input",
+					"top": 16,
+					"left": 174,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.title",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"thumbnail": {
+					"type": "input",
+					"top": 45,
+					"left": 174,
+					"width": 200,
+					"height": 200,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.thumbnail",
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

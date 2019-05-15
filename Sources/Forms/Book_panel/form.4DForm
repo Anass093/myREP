@@ -1,0 +1,298 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 16,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Titre"
+				},
+				"_input_title": {
+					"type": "input",
+					"top": 16,
+					"left": 134,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.title",
+					"fontWeight": "bold",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 41,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Sous titre"
+				},
+				"_input_subtitle": {
+					"type": "input",
+					"top": 41,
+					"left": 134,
+					"width": 357,
+					"height": 17,
+					"dataSource": "Form:C1466.entity.subtitle",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 66,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Description"
+				},
+				"_input_description": {
+					"type": "input",
+					"top": 66,
+					"left": 134,
+					"width": 357,
+					"height": 157,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.entity.description",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 237,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Auteurs"
+				},
+				"lb_authors": {
+					"type": "listbox",
+					"top": 237,
+					"left": 134,
+					"width": 372,
+					"height": 76,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "Form:C1466.entity.owners.author",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne1",
+							"dataSource": "This:C1470.firstName",
+							"width": 179,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Prénom"
+							}
+						},
+						{
+							"name": "Colonne2",
+							"dataSource": "This:C1470.lastName",
+							"width": 178,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Nom"
+							}
+						}
+					]
+				},
+				"thumbnail": {
+					"type": "input",
+					"top": 16,
+					"left": 521,
+					"width": 148,
+					"height": 209,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.thumbnail",
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 325,
+					"left": 135,
+					"width": 371,
+					"height": 155,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "collection",
+					"focusable": false,
+					"movableRows": false,
+					"dataSource": "Form:C1466.entity.borrowings.cart",
+					"currentItemSource": "Form:C1466.cart",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Colonne4",
+							"dataSource": "Borrowing_cart_state (This:C1470.current_state)",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête4",
+								"text": "Etat"
+							}
+						},
+						{
+							"name": "Colonne5",
+							"dataSource": "This:C1470.state_history[\"1\"]",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "center",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête5",
+								"text": "Date"
+							}
+						},
+						{
+							"name": "Colonne6",
+							"dataSource": "This:C1470.borrower.firstName",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête6",
+								"text": "Prénom"
+							}
+						},
+						{
+							"name": "Colonne3",
+							"dataSource": "This:C1470.borrower.lastName",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête3",
+								"text": "Nom"
+							}
+						}
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 325,
+					"left": 23,
+					"width": 115,
+					"height": 17,
+					"stroke": "#800000",
+					"text": "Lots d'emprunt"
+				},
+				"Séparateur": {
+					"type": "splitter",
+					"top": 318,
+					"left": 15,
+					"width": 761,
+					"height": 6,
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur1": {
+					"type": "splitter",
+					"top": 229,
+					"left": 15,
+					"width": 761,
+					"height": 6,
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
