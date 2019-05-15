@@ -307,6 +307,7 @@
 		<field name="dsqc" uuid="7DCBB36DAEDD43E1B740F98C2F953CE0" type="10" limiting_length="255" never_null="true" id="6"/>
 		<field name="newchamp" uuid="59D8813A21BC412F81DBDE8E0C2CF57B" type="10" limiting_length="255" never_null="true" id="7"/>
 		<field name="ds" uuid="AD94D0B1961C408BA987818E9C4558B5" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="rdfs" uuid="3F748EA7B77D4CC6869A0E53F22B9D05" type="10" limiting_length="255" never_null="true" id="9"/>
 		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="9">
