@@ -1,4 +1,5 @@
 ﻿{
+	"destination": "detailScreen",
 	"rightMargin": 19,
 	"bottomMargin": 20,
 	"markerBody": 228,
@@ -30,6 +31,11 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "841pt"
+	},
 	"pages": [
 		null,
 		{
@@ -40,16 +46,16 @@
 					"left": 554,
 					"width": 100,
 					"height": 13,
-					"fill": "transparent",
 					"stroke": "#000000",
 					"fontFamily": "Segoe UI",
 					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Numéro enreg."
 					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
 					"method": "ObjectMethods/vRecNum.4dm",
@@ -86,12 +92,12 @@
 						"$ref": "/SOURCES/tips.json#/Premier enreg."
 					},
 					"action": "firstRecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -106,12 +112,12 @@
 						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
 					},
 					"action": "previousRecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -126,12 +132,12 @@
 						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
 					},
 					"action": "nextRecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -146,12 +152,12 @@
 						"$ref": "/SOURCES/tips.json#/Dernier enreg."
 					},
 					"action": "lastRecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -166,12 +172,12 @@
 						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
 					},
 					"action": "deleteRecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -186,12 +192,12 @@
 						"$ref": "/SOURCES/tips.json#/Annuler"
 					},
 					"action": "cancel",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -206,12 +212,12 @@
 						"$ref": "/SOURCES/tips.json#/OK"
 					},
 					"action": "accept",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -259,8 +265,8 @@
 					"width": 250,
 					"height": 18,
 					"dataSource": "[ID_to_UUID:3]UUID:1",
-					"fill": "transparent",
 					"textAlign": "left",
+					"fill": "transparent",
 					"borderStyle": "sunken",
 					"enterable": false,
 					"contextMenu": "none",
@@ -285,8 +291,8 @@
 					"width": 56,
 					"height": 18,
 					"dataSource": "[ID_to_UUID:3]ID:2",
-					"fill": "#FFFFFF",
 					"textAlign": "left",
+					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -310,8 +316,8 @@
 					"width": 49,
 					"height": 18,
 					"dataSource": "[ID_to_UUID:3]origine:3",
-					"fill": "#FFFFFF",
 					"textAlign": "left",
+					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -335,8 +341,8 @@
 					"width": 305,
 					"height": 18,
 					"dataSource": "[ID_to_UUID:3]IDA:4",
-					"fill": "#FFFFFF",
 					"textAlign": "left",
+					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",

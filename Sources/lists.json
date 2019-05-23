@@ -2,7 +2,6 @@
 	"formulaires": {
 		"lineHeight": 18,
 		"editable": true,
-		"customDataInteger": 0,
 		"items": [
 			{
 				"text": "Album_panel",

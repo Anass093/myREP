@@ -52,7 +52,7 @@
 		<field name="permalink" uuid="DAAAF01EA6624B248D70A4B1FEC39E54" type="10" limiting_length="255" never_null="true" id="14"/>
 		<field name="fulltext" uuid="83822D83DC6C4763911092832434A517" type="10" never_null="true" id="15"/>
 		<primary_key field_name="UUID" field_uuid="D3577F36C14B44E7800FB0F821980999"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="15">
 				<color red="237" green="211" blue="181" alpha="255"/>
 				<coordinates left="595.55078125" top="0" width="251.89453125" height="357.51171875"/>
@@ -65,7 +65,7 @@
 		<field name="lastName" uuid="1091AEA6F6624015B6C20DBA7A3C65DB" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="firstName" uuid="37087665331D49FAA6102C61633D65DA" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="UUID" field_uuid="8EA3695F906B42F19D9BF2D7BA221330"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info fields_ordering="1" displayable_fields_count="8">
 				<color red="255" green="153" blue="63" alpha="255"/>
 				<coordinates left="1380.99609375" top="21.08203125" width="205.84375" height="215.33203125"/>
@@ -78,7 +78,7 @@
 		<field name="origine" uuid="C590E08A285949429DA6B33333C845C2" type="3" never_null="true" id="3"/>
 		<field name="IDA" uuid="12B89DC316F34BB2AF270748FC7FC331" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="UUID" field_uuid="B3CC911F2C20411FA40C2F2C27178F4D"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="102" blue="110" alpha="255"/>
 				<coordinates left="206.94921875" top="626.3984375" width="120" height="167.33203125"/>
@@ -94,7 +94,7 @@
 		<field name="password" uuid="4C82B8A04ECF4510BC340E956A2CC01B" type="10" limiting_length="255" never_null="true" id="6"/>
 		<field name="address" uuid="3C356F67808948DCAC7155C87C8C0245" type="21" blob_switch_size="2147483647" never_null="true" id="7"/>
 		<primary_key field_name="UUID" field_uuid="F653D30A25F54576A49BE1F0C01253EA"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="11">
 				<color red="249" green="130" blue="127" alpha="255"/>
 				<coordinates left="1904.01171875" top="364.8984375" width="171.13671875" height="284.6171875"/>
@@ -116,7 +116,7 @@
 		</field>
 		<field name="UUID_Album" uuid="6A84677BA07A1244A2379C87E77F0C27" type="10" limiting_length="255" store_as_UUID="true" id="5"/>
 		<primary_key field_name="UUID" field_uuid="18970F5095C4481CB3757D8753706470"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="DumpList">
 			<editor_table_info displayable_fields_count="6">
 				<color red="224" green="234" blue="104" alpha="255"/>
 				<coordinates left="1390.66796875" top="673.83203125" width="219.9609375" height="169.4765625"/>
@@ -163,7 +163,7 @@
 		</field>
 		<field name="box_number" uuid="A396A1E551484A9A8132BE4CF0941625" type="3" never_null="true" id="6"/>
 		<primary_key field_name="UUID" field_uuid="1166594C79C045119B7129A416C7DE41"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="DumpList">
 			<editor_table_info displayable_fields_count="9">
 				<color red="224" green="234" blue="104" alpha="255"/>
 				<coordinates left="676.38671875" top="603.359375" width="296.875" height="233.89453125"/>
@@ -178,7 +178,7 @@
 		<field name="images" uuid="F658243207A8470CAE416831FB35993F" type="21" never_null="true" id="5"/>
 		<field name="categories" uuid="C5C4E6558F4648F4995F29FBFCAAA661" type="21" never_null="true" id="6"/>
 		<primary_key field_name="UUID" field_uuid="ECF7C870C5CC490AA02A35A8493DE6DB"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="7">
 				<color red="237" green="211" blue="181" alpha="255"/>
 				<coordinates left="711.58984375" top="397.49609375" width="170.734375" height="188.48046875"/>
@@ -197,7 +197,7 @@
 		</field>
 		<field name="order" uuid="FBD49A3152AD40BAA06BB7DBA5DBB15D" type="3" never_null="true" id="4"/>
 		<primary_key field_name="UUID" field_uuid="1FF1AF5418B54E69A1465468EDF1143A"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="4">
 				<color red="255" green="153" blue="63" alpha="255"/>
 				<coordinates left="1126.30078125" top="0" width="139.55078125" height="136.421875"/>
@@ -215,7 +215,7 @@
 			<field_extra position="3"/>
 		</field>
 		<primary_key field_name="UUID" field_uuid="8226A3F188834BD18A6F3B5DD95B6724"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="4">
 				<color red="255" green="153" blue="63" alpha="255"/>
 				<coordinates left="1128.29296875" top="222.2109375" width="139.55078125" height="136.421875"/>
@@ -230,7 +230,7 @@
 		<field name="more_info" uuid="C7F06B8D6E5E437B9A2EF1E6B4937390" type="21" never_null="true" id="5"/>
 		<field name="icone" uuid="99B51A5636D84EC09DC7165AA4F9A0C1" type="12" never_null="true" id="6"/>
 		<primary_key field_name="UUID" field_uuid="BF9E22A39F244368A7E7391508F1FB2B"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="6">
 				<color red="114" green="209" blue="221" alpha="255"/>
 				<coordinates left="228.29296875" top="87.97265625" width="154.48828125" height="175.3046875"/>
@@ -241,7 +241,7 @@
 		<field name="UUID" uuid="08399C8B19A342D7A744C0881EE9CB96" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
 		<field name="name" uuid="47F0BAA5945DCE4A8503E0BC25C99AEF" type="10" limiting_length="255" never_null="true" id="2"/>
 		<primary_key field_name="UUID" field_uuid="08399C8B19A342D7A744C0881EE9CB96"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="5">
 				<color red="255" green="153" blue="63" alpha="255"/>
 				<coordinates left="414.98828125" top="23.33984375" width="132.23828125" height="147.16015625"/>
@@ -253,7 +253,7 @@
 		<field name="thumbnail" uuid="4F7B1DF37EE14B1386ECE1D595D2EA8D" type="12" never_null="true" id="2"/>
 		<field name="source" uuid="E716F2BDDEA844A393539476C083A6E3" type="10" limiting_length="255" never_null="true" id="3"/>
 		<primary_key field_name="UUID" field_uuid="0C2A8D264C6F4FCBB609565571CEB9A4"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="3">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="463.4453125" top="628.05078125" width="133.69140625" height="120.98828125"/>
@@ -266,7 +266,7 @@
 		<field name="LastName" uuid="FF4A2F8EA5054E56B089F68C6E27BA87" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="FirstName" uuid="F1908AE182DB4293804F67B9F8C0380E" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="UUID" field_uuid="ED08051A99D744B9ABDBEB2FC49B4426"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info fields_ordering="1" displayable_fields_count="6">
 				<color red="249" green="130" blue="127" alpha="255"/>
 				<coordinates left="1914.37890625" top="728.3671875" width="120" height="167.33203125"/>
@@ -278,7 +278,7 @@
 		<field name="title" uuid="D165623C29A54EEE8FE9A69C0B929A6A" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="UUID_Author" uuid="90EE225921E14BCC876418C794540910" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="3"/>
 		<primary_key field_name="UUID" field_uuid="FB9E42A6D540465FB8D82D480D1DBA55"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="6">
 				<color red="226" green="158" blue="214" alpha="255"/>
 				<coordinates left="2337.22265625" top="28.1796875" width="120" height="167.33203125"/>
@@ -291,7 +291,7 @@
 		<field name="Items" uuid="DF72681F03544FFD98C627F11825054A" type="21" never_null="true" id="3"/>
 		<field name="coming_soon" uuid="7265770CE4ED40AFB9E86FD9D21B74DD" type="1" never_null="true" id="4"/>
 		<primary_key field_name="UUID" field_uuid="1F9F7C50CE6F4D9AB6AFE42E995611F3"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="5">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="1874.50390625" top="151.46484375" width="179.7265625" height="159.75"/>
@@ -307,9 +307,8 @@
 		<field name="dsqc" uuid="7DCBB36DAEDD43E1B740F98C2F953CE0" type="10" limiting_length="255" never_null="true" id="6"/>
 		<field name="newchamp" uuid="59D8813A21BC412F81DBDE8E0C2CF57B" type="10" limiting_length="255" never_null="true" id="7"/>
 		<field name="ds" uuid="AD94D0B1961C408BA987818E9C4558B5" type="10" limiting_length="255" never_null="true" id="8"/>
-		<field name="test09" uuid="722A4745677D464085433667B3D1B49F" type="10" limiting_length="255" never_null="true" id="9"/>
 		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
-		<table_extra>
+		<table_extra input_form="" output_form="">
 			<editor_table_info displayable_fields_count="10">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="40" top="27.31640625" width="144.56640625" height="257.1015625"/>
@@ -323,7 +322,7 @@
 		<field name="region" uuid="A12F4C53378D4DFEB557F38386276FAB" type="10" limiting_length="255" never_null="true" id="4"/>
 		<field name="Code" uuid="BA2165A3A8854650AA6F0DB31F3EC977" type="4" never_null="true" id="5"/>
 		<primary_key field_name="ID" field_uuid="12BF990063BC4B05864763693754BAE1"/>
-		<table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie">
 			<editor_table_info displayable_fields_count="6">
 				<color red="150" green="216" blue="175" alpha="255"/>
 				<coordinates left="189.7734375" top="304.87109375" width="120" height="167.33203125"/>
@@ -689,7 +688,7 @@
 			<table_ref uuid="9A2EA4BE782D4C9B9A402C490FD1D06F" name="Borrowing_cart"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0" package_name="MyTownLibrary" structure_file_name="MyTownLibrary" data_file_path=":MyTownLibrary.4DD">
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="MyTownLibrary" structure_file_name="MyTownLibrary" data_file_path=":MyTownLibrary.4DD">
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
 </base>

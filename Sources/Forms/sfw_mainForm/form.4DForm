@@ -1,6 +1,8 @@
 ﻿{
+	"destination": "detailScreen",
 	"width": 1062,
 	"height": 590,
+	"menuBar": "mainMenuBar",
 	"markerHeader": 15,
 	"markerBody": 200,
 	"markerBreak": 220,
@@ -12,6 +14,11 @@
 		"onSelectionChange"
 	],
 	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
 	"pages": [
 		null,
 		{
@@ -68,6 +75,7 @@
 					"height": 502,
 					"sizingX": "grow",
 					"sizingY": "grow",
+					"resizingMode": "legacy",
 					"listboxType": "collection",
 					"focusable": false,
 					"movableRows": false,
@@ -165,6 +173,7 @@
 					"height": 493,
 					"sizingX": "grow",
 					"sizingY": "grow",
+					"resizingMode": "legacy",
 					"listboxType": "collection",
 					"focusable": false,
 					"movableRows": false,
@@ -196,7 +205,21 @@
 							"events": [
 								"onClick",
 								"onDataChange"
-							]
+							],
+							"header": {
+								"name": "Entête3",
+								"text": "Entête3",
+								"stroke": "#FFFFFF",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 14
+							},
+							"footer": {
+								"name": "Pied3",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#FFFFFF",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 14
+							}
 						}
 					]
 				},
@@ -429,12 +452,12 @@
 					"height": 14,
 					"dataSource": "Form:C1466.lb_items.length",
 					"dataSourceTypeHint": "number",
-					"fill": "transparent",
 					"stroke": "#C0C0C0",
 					"fontTheme": "additional",
+					"focusable": false,
+					"fill": "transparent",
 					"borderStyle": "none",
 					"enterable": false,
-					"focusable": false,
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -447,13 +470,11 @@
 					"height": 30,
 					"dataSource": "Form:C1466.currentTable.picto",
 					"dataSourceTypeHint": "picture",
+					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
 					"enterable": false,
-					"focusable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "automatic",
-					"scrollbarHorizontal": "automatic",
 					"pictureFormat": "proportionalCenter",
 					"dragging": "custom",
 					"events": [

@@ -1,4 +1,5 @@
 ﻿{
+	"destination": "listScreen",
 	"rightMargin": 16,
 	"bottomMargin": 10,
 	"markerHeader": 102,
@@ -31,6 +32,11 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
 	"pages": [
 		null,
 		{
@@ -45,12 +51,12 @@
 						"$ref": "/SOURCES/tips.json#/Ajouter"
 					},
 					"action": "addSubrecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -75,12 +81,12 @@
 						"$ref": "/SOURCES/tips.json#/Supprimer sélec"
 					},
 					"action": "deleteSubrecord",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteSelection.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]
@@ -104,12 +110,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Tout afficher"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowAll.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bShowAll.4dm",
 					"events": [
 						"onClick"
@@ -134,12 +140,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Afficher sélec."
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowSubset.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bShowSubSet.4dm",
 					"events": [
 						"onClick"
@@ -164,12 +170,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Rechercher"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Query.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bQuery.4dm",
 					"events": [
 						"onClick"
@@ -194,12 +200,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Trier"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/OrderBy.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bOrderBy.4dm",
 					"events": [
 						"onClick"
@@ -224,12 +230,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Etats semi-auto"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bReport.4dm",
 					"events": [
 						"onClick"
@@ -254,12 +260,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Imprimer étique"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Label.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bLabels.4dm",
 					"events": [
 						"onClick"
@@ -284,12 +290,12 @@
 					"tooltip": {
 						"$ref": "/SOURCES/tips.json#/Imprimer sélect"
 					},
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Print.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"method": "ObjectMethods/bPrint.4dm",
 					"events": [
 						"onClick"
@@ -315,12 +321,12 @@
 						"$ref": "/SOURCES/tips.json#/Terminer"
 					},
 					"action": "cancel",
-					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Done.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
+					"dropping": "none",
 					"events": [
 						"onClick"
 					]

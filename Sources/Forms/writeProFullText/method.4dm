@@ -10,7 +10,7 @@ Case of
 			wk font size:K81:66;14)
 		
 		$firstSection:=WP Get section:C1581(Form:C1466.bookFullText;1)
-		$rangeSection:=WP Create range:C1341($firstSection;wk start text:K81:165;wk end text:K81:164)
+		$rangeSection:=WP Text range:C1341($firstSection;wk start text:K81:165;wk end text:K81:164)
 		
 		
 		  //$text:=Sous chaîne($book.fulltext;1;Ent(Longueur($book.fulltext)/10))

@@ -2,7 +2,7 @@
 	"bars": [
 		{
 			"id": 1,
-			"title": "mainMenuBar",
+			"name": "mainMenuBar",
 			"items": [
 				{
 					"link": 32001

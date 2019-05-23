@@ -8,7 +8,7 @@ $server.port:=465
 $server.user:="woroldtour2019@gmail.com"
 $server.password:="20194Dworldtour"
 
-$transporter:=:C1608($server)
+$transporter:=SMTP New transporter:C1608($server)
 
 $email:=New object:C1471
 $email.subject:="mon premier e-mail "

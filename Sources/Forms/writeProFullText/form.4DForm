@@ -1,4 +1,5 @@
 ﻿{
+	"destination": "detailScreen",
 	"rightMargin": 19,
 	"bottomMargin": 20,
 	"markerHeader": 15,
@@ -24,6 +25,11 @@
 		"onPageChange"
 	],
 	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
 	"pages": [
 		null,
 		{
@@ -42,8 +48,7 @@
 					"dropping": "none",
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
-					"showHorizontalRuler": true,
-					"layoutMode": "page",
+					"dpi": 0,
 					"events": [
 						"onDataChange",
 						"onSelectionChange",
