@@ -1,3 +1,4 @@
+TRACE:C157
 C_OBJECT:C1216($dynfr)
 OBJECT GET SUBFORM:C1139(*;"Sousformulaire";$tablePtr;$detailSubform)
 $dynfr:=FORM Convert to dynamic:C1570($detailSubform)
