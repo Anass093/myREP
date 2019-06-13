@@ -308,6 +308,7 @@
 		<field name="newchamp" uuid="59D8813A21BC412F81DBDE8E0C2CF57B" type="10" limiting_length="255" never_null="true" id="7"/>
 		<field name="dc" uuid="1D4CB4F393A344D0B4A196DFB5834A49" type="10" limiting_length="255" never_null="true" id="8"/>
 		<field name="cqs" uuid="329767FCFE9446C6801C3E6E94CC9AA9" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="champ33" uuid="01092747EB674BC0B5236810D1A4D761" type="10" limiting_length="255" never_null="true" id="10"/>
 		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
 		<table_extra input_form="" output_form="">
 			<editor_table_info displayable_fields_count="10">
