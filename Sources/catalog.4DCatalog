@@ -309,11 +309,12 @@
 		<field name="dc" uuid="1D4CB4F393A344D0B4A196DFB5834A49" type="10" limiting_length="255" never_null="true" id="8"/>
 		<field name="cqs" uuid="329767FCFE9446C6801C3E6E94CC9AA9" type="10" limiting_length="255" never_null="true" id="9"/>
 		<field name="champ33" uuid="01092747EB674BC0B5236810D1A4D761" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Champ_11" uuid="C1BA30AE694247CF8CAA76272FF0784D" type="10" limiting_length="255" never_null="true" id="11"/>
 		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
 		<table_extra input_form="" output_form="">
-			<editor_table_info displayable_fields_count="10">
+			<editor_table_info displayable_fields_count="14">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="27.31640625" width="144.56640625" height="257.1015625"/>
+				<coordinates left="40" top="27.31640625" width="157.98046875" height="347.26953125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
