@@ -310,6 +310,7 @@
 		<field name="cqs" uuid="329767FCFE9446C6801C3E6E94CC9AA9" type="10" limiting_length="255" never_null="true" id="9"/>
 		<field name="champ33" uuid="01092747EB674BC0B5236810D1A4D761" type="10" limiting_length="255" never_null="true" id="10"/>
 		<field name="Champ_11" uuid="C1BA30AE694247CF8CAA76272FF0784D" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="Champ_12" uuid="6EA547A3C726413E9D64E7BD9057B4D1" type="10" limiting_length="255" never_null="true" id="12"/>
 		<primary_key field_name="ID" field_uuid="5EA8650AA78C4B9CB5B36EFF6E7F86EB"/>
 		<table_extra input_form="" output_form="">
 			<editor_table_info displayable_fields_count="14">
